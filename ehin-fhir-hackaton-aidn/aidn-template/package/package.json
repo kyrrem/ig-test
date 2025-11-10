@@ -1,0 +1,13 @@
+{
+  "name": "no.aidn.ig.template",
+  "version": "0.1.0",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "author": "Aidn",
+  "description": "FHIR IG Template - Aidn",
+  "canonical": "http://aidn.no/fhir/ig/template",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  }
+}
