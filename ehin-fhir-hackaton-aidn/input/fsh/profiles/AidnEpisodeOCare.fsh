@@ -20,4 +20,4 @@ Description: "Eksempel på norsk pasient med oversikt over kommunale tjenester"
 * identifier.value = "13031353453"
 * patient only Reference(NoBasisPatient)
 * managingorganization only Reference(NoBasisOrganization)
-// * status 
+* status code MS
