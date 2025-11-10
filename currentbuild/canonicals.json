@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "ehin.fhir.hackaton.aidn.no",
+    "type" : "ImplementationGuide",
+    "url" : "http://aidn.no/ehin/fhir/hackaton/ImplementationGuide/ehin.fhir.hackaton.aidn.no",
+    "version" : "0.1.0",
+    "name" : "EHINFHIRHackatonAidn"
+  },
+  {
+    "id" : "AidnEpisodeOfCare",
+    "type" : "StructureDefinition",
+    "url" : "http://aidn.no/ehin/fhir/hackaton/StructureDefinition/AidnEpisodeOfCare",
+    "version" : "0.1.0",
+    "name" : "AidnEpisodeOfCare"
+  }
+]

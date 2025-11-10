@@ -1,0 +1,16 @@
+# ehin.fhir.hackaton.aidn.no#0.1.0: EHIN FHIR Hackaton - Aidn.
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### Resource Profiles
+
+* [AidnEpisodeOfCare](StructureDefinition-AidnEpisodeOfCare.md)
+
+### ImplementationGuides
+
+* [EHIN FHIR Hackaton - Aidn.](index.md)
