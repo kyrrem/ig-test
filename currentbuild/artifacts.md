@@ -15,3 +15,11 @@ These define constraints on FHIR resources for systems conforming to this implem
 | :--- | :--- |
 | [AidnEpisodeOfCare](StructureDefinition-AidnEpisodeOfCare.md) | Informasjon om kommunale tjenster, basert på basisprofil. |
 
+### Example: Example Instances 
+
+These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.
+
+| | |
+| :--- | :--- |
+| [AidnEpisodeOfCare-1](EpisodeOfCare-AidnEpisodeOfCare-1.md) | Eksempel på norsk pasient med oversikt over kommunale tjenester |
+

@@ -57,7 +57,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "EHINFHIRHackatonAidn",
   "title" : "EHIN FHIR Hackaton - Aidn.",
   "status" : "draft",
-  "date" : "2025-11-10T10:59:57+00:00",
+  "date" : "2025-11-10T13:16:29+00:00",
   "publisher" : "Aidn",
   "contact" : [
     {
@@ -788,6 +788,20 @@ Eksempel på en figur laget med PlantUML.
         "name" : "AidnEpisodeOfCare",
         "description" : "Informasjon om kommunale tjenster, basert på basisprofil.",
         "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "EpisodeOfCare"
+          }
+        ],
+        "reference" : {
+          "reference" : "EpisodeOfCare/AidnEpisodeOfCare-1"
+        },
+        "name" : "AidnEpisodeOfCare-1",
+        "description" : "Eksempel på norsk pasient med oversikt over kommunale tjenester",
+        "exampleCanonical" : "http://aidn.no/ehin/fhir/hackaton/StructureDefinition/AidnEpisodeOfCare"
       }
     ],
     "page" : {

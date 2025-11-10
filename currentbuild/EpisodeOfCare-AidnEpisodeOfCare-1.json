@@ -1,0 +1,32 @@
+{
+  "resourceType" : "EpisodeOfCare",
+  "id" : "AidnEpisodeOfCare-1",
+  "meta" : {
+    "profile" : ["http://aidn.no/ehin/fhir/hackaton/StructureDefinition/AidnEpisodeOfCare"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: EpisodeOfCare AidnEpisodeOfCare-1</b></p><a name=\"AidnEpisodeOfCare-1\"> </a><a name=\"hcAidnEpisodeOfCare-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AidnEpisodeOfCare.html\">AidnEpisodeOfCare</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/13031353453</p><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:{https://www.ssb.no/en/klass/klassifikasjoner/223/versjon/1269 15}\">Home nursing</span></p><p><b>patient</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130\">Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130</a></p><p><b>managingOrganization</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518\">Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518</a></p><p><b>period</b>: 2024-01-01 --&gt; (ongoing)</p></div>"
+  },
+  "identifier" : [{
+    "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+    "value" : "13031353453"
+  }],
+  "status" : "active",
+  "type" : [{
+    "coding" : [{
+      "system" : "https://www.ssb.no/en/klass/klassifikasjoner/223/versjon/1269",
+      "code" : "15",
+      "display" : "Home nursing"
+    }]
+  }],
+  "patient" : {
+    "reference" : "Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130"
+  },
+  "managingOrganization" : {
+    "reference" : "Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518"
+  },
+  "period" : {
+    "start" : "2024-01-01"
+  }
+}

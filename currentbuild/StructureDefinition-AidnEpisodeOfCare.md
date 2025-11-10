@@ -16,7 +16,7 @@ Informasjon om kommunale tjenster, basert på basisprofil.
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Examples for this Profile: [EpisodeOfCare/AidnEpisodeOfCare-1](EpisodeOfCare-AidnEpisodeOfCare-1.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ehin.fhir.hackaton.aidn.no|current/StructureDefinition/AidnEpisodeOfCare)
 
@@ -118,7 +118,15 @@ Other representations of profile: [CSV](StructureDefinition-AidnEpisodeOfCare.cs
       {
         "id" : "EpisodeOfCare.managingOrganization",
         "path" : "EpisodeOfCare.managingOrganization",
-        "min" : 1
+        "min" : 1,
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
+            ]
+          }
+        ]
       }
     ]
   }

@@ -14,3 +14,7 @@
 ### ImplementationGuides
 
 * [EHIN FHIR Hackaton - Aidn.](index.md)
+
+### Examples
+
+* [AidnEpisodeOfCare-1 (EpisodeOfCare)](EpisodeOfCare-AidnEpisodeOfCare-1.md)

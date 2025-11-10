@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://aidn.no/ehin/fhir/hackaton/EpisodeOfCare/AidnEpisodeOfCare-1> a fhir:EpisodeOfCare ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AidnEpisodeOfCare-1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://aidn.no/ehin/fhir/hackaton/StructureDefinition/AidnEpisodeOfCare"^^xsd:anyURI ;
+       fhir:l <http://aidn.no/ehin/fhir/hackaton/StructureDefinition/AidnEpisodeOfCare>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: EpisodeOfCare AidnEpisodeOfCare-1</b></p><a name=\"AidnEpisodeOfCare-1\"> </a><a name=\"hcAidnEpisodeOfCare-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AidnEpisodeOfCare.html\">AidnEpisodeOfCare</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/13031353453</p><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:{https://www.ssb.no/en/klass/klassifikasjoner/223/versjon/1269 15}\">Home nursing</span></p><p><b>patient</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130\">Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130</a></p><p><b>managingOrganization</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518\">Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518</a></p><p><b>period</b>: 2024-01-01 --&gt; (ongoing)</p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
+       fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
+     ] ;
+     fhir:value [ fhir:v "13031353453" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "https://www.ssb.no/en/klass/klassifikasjoner/223/versjon/1269"^^xsd:anyURI ;
+         fhir:l <https://www.ssb.no/en/klass/klassifikasjoner/223/versjon/1269>
+       ] ;
+       fhir:code [ fhir:v "15" ] ;
+       fhir:display [ fhir:v "Home nursing" ]
+     ] )
+  ] ) ; # 
+  fhir:patient [
+     fhir:l <http://aidn.no/ehin/fhir/hackaton/Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130> ;
+     fhir:reference [ fhir:v "Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130" ]
+  ] ; # 
+  fhir:managingOrganization [
+     fhir:l <http://aidn.no/ehin/fhir/hackaton/Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518> ;
+     fhir:reference [ fhir:v "Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518" ]
+  ] ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2024-01-01"^^xsd:date ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

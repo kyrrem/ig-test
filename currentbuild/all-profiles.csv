@@ -88,7 +88,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "AidnEpisodeOfCare","EpisodeOfCare.patient","EpisodeOfCare.patient","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Patient]]}
 ","The patient who is the focus of this episode of care","The patient who is the focus of this episode of care.","","","","","","","","","",,,,,"",,,,"EpisodeOfCare.patient",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"AidnEpisodeOfCare","EpisodeOfCare.managingOrganization","EpisodeOfCare.managingOrganization","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
+"AidnEpisodeOfCare","EpisodeOfCare.managingOrganization","EpisodeOfCare.managingOrganization","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Organization]]}
 ","Organization that assumes care","The organization that has assumed the specific responsibilities for the specified duration.","","","","","","","","","",,,,,"",,,,"EpisodeOfCare.managingOrganization",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "AidnEpisodeOfCare","EpisodeOfCare.period","EpisodeOfCare.period","","","",0,1,"","","Y","Period {[]} {[]}

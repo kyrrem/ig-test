@@ -11,7 +11,7 @@
   <name value="EHINFHIRHackatonAidn"/>
   <title value="EHIN FHIR Hackaton - Aidn."/>
   <status value="draft"/>
-  <date value="2025-11-10T10:59:57+00:00"/>
+  <date value="2025-11-10T13:16:29+00:00"/>
   <publisher value="Aidn"/>
   <contact>
     <name value="Aidn"/>
@@ -466,6 +466,17 @@
       <name value="AidnEpisodeOfCare"/>
       <description value="Informasjon om kommunale tjenster, basert på basisprofil."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="EpisodeOfCare"/>
+      </extension>
+      <reference>
+        <reference value="EpisodeOfCare/AidnEpisodeOfCare-1"/>
+      </reference>
+      <name value="AidnEpisodeOfCare-1"/>
+      <description value="Eksempel på norsk pasient med oversikt over kommunale tjenester"/>
+      <exampleCanonical value="http://aidn.no/ehin/fhir/hackaton/StructureDefinition/AidnEpisodeOfCare"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

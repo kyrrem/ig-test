@@ -1,21 +1,25 @@
 EHINFHIRHackatonAidn : Validation Results
 =========================================
 
-err = 0, warn = 7, info = 1
+err = 2, warn = 7, info = 1
 IG Publisher Version: 2.0.26
-Generated Mon Nov 10 11:01:15 UTC 2025. FHIR version 4.0.1 for ehin.fhir.hackaton.aidn.no#0.1.0 (canonical = http://aidn.no/ehin/fhir/hackaton)
+Generated Mon Nov 10 13:17:37 UTC 2025. FHIR version 4.0.1 for ehin.fhir.hackaton.aidn.no#0.1.0 (canonical = http://aidn.no/ehin/fhir/hackaton)
  Build Errors : 0 / 4 / 0
+ /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/EpisodeOfCare-AidnEpisodeOfCare-1 : 2 / 1 / 1
  /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/ImplementationGuide-ehin.fhir.hackaton.aidn.no : 0 / 2 / 1
- /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/StructureDefinition-AidnEpisodeOfCare : 0 / 1 / 2
+ /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/StructureDefinition-AidnEpisodeOfCare : 0 / 0 / 2
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/EpisodeOfCare-AidnEpisodeOfCare-1.json ==
+WARNING: EpisodeOfCare/AidnEpisodeOfCare-1: EpisodeOfCare.type[0].coding[0].system: A definition for CodeSystem 'https://www.ssb.no/en/klass/klassifikasjoner/223/versjon/1269' could not be found, so the code cannot be validated
+ERROR: EpisodeOfCare/AidnEpisodeOfCare-1: EpisodeOfCare.patient: Unable to resolve resource with reference 'Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130'
+ERROR: EpisodeOfCare/AidnEpisodeOfCare-1: EpisodeOfCare.managingOrganization: Unable to resolve resource with reference 'Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518'
 == fsh-generated/resources/ImplementationGuide-ehin.fhir.hackaton.aidn.no.json ==
 WARNING: ImplementationGuide/ehin.fhir.hackaton.aidn.no: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
 WARNING: ImplementationGuide/ehin.fhir.hackaton.aidn.no: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
 == fsh-generated/resources/StructureDefinition-AidnEpisodeOfCare.json ==
 INFORMATION: StructureDefinition/AidnEpisodeOfCare: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
-WARNING: StructureDefinition.where(url = 'http://aidn.no/ehin/fhir/hackaton/StructureDefinition/AidnEpisodeOfCare'): The Implementation Guide contains no examples for this profile
