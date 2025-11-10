@@ -23,7 +23,7 @@ Description: "Eksempel på norsk pasient med oversikt over kommunale tjenester"
 * patient = Reference(Patient/2df7d3fa-a2ff-4658-ac16-6fe35f911130)
 * managingOrganization = Reference(Organization/3755a6a9-0dfd-4017-8f9c-a1bd9a59b518)
 * type[0].coding[0].system = "https://www.ssb.no/en/klass/klassifikasjoner/223/versjon/1269"
-* type[0].coding[0].value = #15
+* type[0].coding[0].code = #15
 * type[0].coding[0].display = "Home nursing"
 * period.start = "2024-01-01"
 * status = #active
