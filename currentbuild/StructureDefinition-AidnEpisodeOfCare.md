@@ -118,14 +118,7 @@ Other representations of profile: [CSV](StructureDefinition-AidnEpisodeOfCare.cs
       {
         "id" : "EpisodeOfCare.managingOrganization",
         "path" : "EpisodeOfCare.managingOrganization",
-        "type" : [
-          {
-            "code" : "Reference",
-            "targetProfile" : [
-              "http://hl7.no/fhir/StructureDefinition/no-basis-Organization"
-            ]
-          }
-        ]
+        "min" : 1
       }
     ]
   }

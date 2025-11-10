@@ -57,7 +57,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "EHINFHIRHackatonAidn",
   "title" : "EHIN FHIR Hackaton - Aidn.",
   "status" : "draft",
-  "date" : "2025-11-10T10:28:02+00:00",
+  "date" : "2025-11-10T10:59:57+00:00",
   "publisher" : "Aidn",
   "contact" : [
     {

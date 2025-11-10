@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "ehin.fhir.hackaton.aidn.no",
   "ig-ver" : "0.1.0",
-  "date" : "Mon, 10 Nov, 2025 10:28:02 +0000",
-  "dateISO8601" : "2025-11-10T10:28:02+00:00",
+  "date" : "Mon, 10 Nov, 2025 10:59:57 +0000",
+  "dateISO8601" : "2025-11-10T10:59:57+00:00",
   "errs" : 0,
   "warnings" : 7,
   "hints" : 1,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 746703432
+  "maxMemory" : 924843880
 }
