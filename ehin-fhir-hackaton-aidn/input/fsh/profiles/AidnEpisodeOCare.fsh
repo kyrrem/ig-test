@@ -7,7 +7,7 @@ Description: "Informasjon om kommunale tjenster, basert på basisprofil."
 * ^date = "2025-11-10"
 * ^publisher = "Aidn"
 * identifier MS
-* status code MS
+* status MS
 * patient only Reference(NoBasisPatient)
 * managingorganization only Reference(NoBasisOrganization)
 
