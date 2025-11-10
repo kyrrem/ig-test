@@ -3,11 +3,11 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # Oppdater med riktig informasjon
-id: hl7.fhir.no.mal
-canonical: http://hl7.no/fhir/ig/mal
-name: Mal
-title: "Mal"
-description: Implementasjonsguide for å TODO
+id: ehin.fhir.hackaton.aidn.no
+canonical: http://aidn.no/ehin/fhir/hackaton
+name: EHIN FHIR Hackaton - Aidn
+title: "EHIN FHIR Hackaton - Aidn."
+description: Test av implementasjonsguide EHIN FHIR Hackaton - Aidn
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
@@ -16,8 +16,8 @@ releaseLabel: ci-build
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 # Oppdater navn og URL til din organisasjon
 publisher:
-  name: HL7 Norge
-  url: https://www.hl7.no
+  name: Aidn
+  url: https://www.aidn.no
 dependencies:
   hl7.fhir.no.basis: 2.2.0
 
