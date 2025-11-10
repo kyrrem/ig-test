@@ -9,7 +9,8 @@ Description: "Informasjon om kommunale tjenster, basert på basisprofil."
 * identifier MS
 * status MS
 * patient only Reference(NoBasisPatient)
-* managingOrganization 1..1 only Reference(NoBasisOrganization)
+* managingOrganization 1..1
+* managingOrganization only Reference(Organization)
 
 // Eksempel på norsk pasient med kommunale tjenester
 //Instance: EpisodeOfCare-1
