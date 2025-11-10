@@ -8,7 +8,6 @@ Description: "Informasjon om kommunale tjenster, basert på basisprofil."
 * ^publisher = "Aidn"
 
 * identifier MS
-* name.family MS
 
 // Eksempel på norsk pasient med kommunale tjenester
 
