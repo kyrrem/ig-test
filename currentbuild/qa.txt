@@ -3,13 +3,30 @@ EHINFHIRHackatonAidn : Validation Results
 
 err = 2, warn = 7, info = 1
 IG Publisher Version: 2.0.26
-Generated Mon Nov 10 14:11:48 UTC 2025. FHIR version 4.0.1 for ehin.fhir.hackaton.aidn.no#0.1.0 (canonical = http://aidn.no/ehin/fhir/hackaton)
- Build Errors : 0 / 4 / 0
+Generated Mon Nov 10 14:36:10 UTC 2025. FHIR version 4.0.1 for ehin.fhir.hackaton.aidn.no#0.1.0 (canonical = http://aidn.no/ehin/fhir/hackaton)
+ Build Errors : 17 / 4 / 0
  /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/EpisodeOfCare-AidnEpisodeOfCare-1 : 2 / 1 / 1
  /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/ImplementationGuide-ehin.fhir.hackaton.aidn.no : 0 / 2 / 1
  /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/StructureDefinition-AidnEpisodeOfCare : 0 / 0 / 2
 </table>
 == n/a ==
+ERROR: EpisodeOfCare-AidnEpisodeOfCare-1.change.history.html#/html/body/div/div/div/a/img at Line 57, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: EpisodeOfCare-AidnEpisodeOfCare-1.html#/html/body/div/div/div/a/img at Line 53, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: EpisodeOfCare-AidnEpisodeOfCare-1.json.html#/html/body/div/div/div/a/img at Line 55, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: EpisodeOfCare-AidnEpisodeOfCare-1.ttl.html#/html/body/div/div/div/a/img at Line 55, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: EpisodeOfCare-AidnEpisodeOfCare-1.xml.html#/html/body/div/div/div/a/img at Line 55, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare-definitions.html#/html/body/div/div/div/a/img at Line 57, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare-examples.html#/html/body/div/div/div/a/img at Line 57, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare-mappings.html#/html/body/div/div/div/a/img at Line 57, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare-testing.html#/html/body/div/div/div/a/img at Line 57, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare.html#/html/body/div/div/div/a/img at Line 57, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare.profile.history.html#/html/body/div/div/div/a/img at Line 57, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare.profile.json.html#/html/body/div/div/div/a/img at Line 61, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare.profile.ttl.html#/html/body/div/div/div/a/img at Line 61, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: StructureDefinition-AidnEpisodeOfCare.profile.xml.html#/html/body/div/div/div/a/img at Line 61, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/a/img at Line 53, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/a/img at Line 53, column 10: The image source 'assets/images/aidn.png' cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/a/img at Line 53, column 10: The image source 'assets/images/aidn.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide

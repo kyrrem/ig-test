@@ -1,12 +1,12 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-ehin.fhir.hackaton.aidn.no.json	2139	-	0	0	0	0	0	0	12	78	0	0	0	0	0	0	0	0	0	0	66	77	0	0	0	2	0	2
-fsh-generated/resources/EpisodeOfCare-AidnEpisodeOfCare-1.json	775	20	0	0	0	0	0	0	1	256	0	0	0	0	0	0	0	0	0	0	15	24	0	0	1	0	0	0
-fsh-generated/resources/StructureDefinition-AidnEpisodeOfCare.json	1518	15	0	47	0	0	1	0	0	88	0	0	1	0	0	0	0	1	0	0	166	879	0	1	0	4	1	1
+/fsh-generated/resources/ImplementationGuide-ehin.fhir.hackaton.aidn.no.json	2139	-	0	0	0	0	0	0	10	75	0	0	0	0	0	0	0	0	0	0	60	63	0	0	0	2	0	2
+fsh-generated/resources/EpisodeOfCare-AidnEpisodeOfCare-1.json	775	14	0	0	0	0	0	0	0	304	0	0	0	0	0	0	0	0	0	0	15	22	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-AidnEpisodeOfCare.json	1518	13	0	48	0	0	0	0	1	90	0	0	1	0	0	0	0	1	0	0	79	875	0	0	0	6	0	1
 /fsh-generated/includes/fsh-link-references.md	125	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /fsh-generated/includes/menu.xml	1089	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/index.md	1058	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/test.puml	389	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/test.svg	8659	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
