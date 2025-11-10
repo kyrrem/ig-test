@@ -3,7 +3,7 @@ EHINFHIRHackatonAidn : Validation Results
 
 err = 2, warn = 7, info = 1
 IG Publisher Version: 2.0.26
-Generated Mon Nov 10 13:17:37 UTC 2025. FHIR version 4.0.1 for ehin.fhir.hackaton.aidn.no#0.1.0 (canonical = http://aidn.no/ehin/fhir/hackaton)
+Generated Mon Nov 10 14:11:48 UTC 2025. FHIR version 4.0.1 for ehin.fhir.hackaton.aidn.no#0.1.0 (canonical = http://aidn.no/ehin/fhir/hackaton)
  Build Errors : 0 / 4 / 0
  /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/EpisodeOfCare-AidnEpisodeOfCare-1 : 2 / 1 / 1
  /__w/ig-test/ig-test/ehin-fhir-hackaton-aidn/fsh-generated/resources/ImplementationGuide-ehin.fhir.hackaton.aidn.no : 0 / 2 / 1
